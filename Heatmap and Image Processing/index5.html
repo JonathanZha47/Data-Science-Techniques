@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5935b4039a5d015d949574a99c6757e3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5935b4039a5d015d949574a99c6757e3" ></div>
+        
+</body>
+<script>    
+    
+            var map_5935b4039a5d015d949574a99c6757e3 = L.map(
+                "map_5935b4039a5d015d949574a99c6757e3",
+                {
+                    center: [40.693943, -73.98588],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: 1,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ea678861e5ff5c64f922ee84337ca8da = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5935b4039a5d015d949574a99c6757e3);
+        
+    
+            var marker_3ca65d7c5656ff0618f9e3f9f87c32c7 = L.marker(
+                [40.7244, -74.00794],
+                {}
+            ).addTo(map_5935b4039a5d015d949574a99c6757e3);
+        
+    
+            var icon_d9227db987acfe986d2dfdd73d3deb52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3ca65d7c5656ff0618f9e3f9f87c32c7.setIcon(icon_d9227db987acfe986d2dfdd73d3deb52);
+        
+    
+        var popup_926a7c41ac9b439aa2c97c07e19e6be7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85af9e7c156bb92045c8fcc866c5b62e = $(`<div id="html_85af9e7c156bb92045c8fcc866c5b62e" style="width: 100.0%; height: 100.0%;">Top 10 expensive listings</div>`)[0];
+            popup_926a7c41ac9b439aa2c97c07e19e6be7.setContent(html_85af9e7c156bb92045c8fcc866c5b62e);
+        
+
+        marker_3ca65d7c5656ff0618f9e3f9f87c32c7.bindPopup(popup_926a7c41ac9b439aa2c97c07e19e6be7)
+        ;
+
+        
+    
+    
+            var marker_b00ca67d6e77ddda969531831ac58672 = L.marker(
+                [40.75876, -73.98846],
+                {}
+            ).addTo(map_5935b4039a5d015d949574a99c6757e3);
+        
+    
+            var icon_a6a8919e88c5e0bbdbf304be71c8dd27 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b00ca67d6e77ddda969531831ac58672.setIcon(icon_a6a8919e88c5e0bbdbf304be71c8dd27);
+        
+    
+        var popup_8218ca030b5b44086aa89bc481702dfa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f625e6e64ba8785a72d5b9d073540f19 = $(`<div id="html_f625e6e64ba8785a72d5b9d073540f19" style="width: 100.0%; height: 100.0%;">Top 10 expensive listings</div>`)[0];
+            popup_8218ca030b5b44086aa89bc481702dfa.setContent(html_f625e6e64ba8785a72d5b9d073540f19);
+        
+
+        marker_b00ca67d6e77ddda969531831ac58672.bindPopup(popup_8218ca030b5b44086aa89bc481702dfa)
+        ;
+
+        
+    
+    
+            var marker_2b056be7cc656138300e38e43edcda5b = L.marker(
+                [40.74623, -73.98499],
+                {}
+            ).addTo(map_5935b4039a5d015d949574a99c6757e3);
+        
+    
+            var icon_0999b430e6b2cea672ee6598772cd089 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b056be7cc656138300e38e43edcda5b.setIcon(icon_0999b430e6b2cea672ee6598772cd089);
+        
+    
+        var popup_73eaf4bd19ce992fb08690157cb19dd5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f60a266969190588661d8405010eb290 = $(`<div id="html_f60a266969190588661d8405010eb290" style="width: 100.0%; height: 100.0%;">Top 10 expensive listings</div>`)[0];
+            popup_73eaf4bd19ce992fb08690157cb19dd5.setContent(html_f60a266969190588661d8405010eb290);
+        
+
+        marker_2b056be7cc656138300e38e43edcda5b.bindPopup(popup_73eaf4bd19ce992fb08690157cb19dd5)
+        ;
+
+        
+    
+    
+            var marker_3992d8e7c190e1ae320834c2100e4d65 = L.marker(
+                [40.7238, -73.99038],
+                {}
+            ).addTo(map_5935b4039a5d015d949574a99c6757e3);
+        
+    
+            var icon_75a3b36f41a41dda5ed679eae739f456 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3992d8e7c190e1ae320834c2100e4d65.setIcon(icon_75a3b36f41a41dda5ed679eae739f456);
+        
+    
+        var popup_1a5f29490cd6ffa167b9306fd6ab1e4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2240ad25985e524481936599bac82add = $(`<div id="html_2240ad25985e524481936599bac82add" style="width: 100.0%; height: 100.0%;">Top 10 expensive listings</div>`)[0];
+            popup_1a5f29490cd6ffa167b9306fd6ab1e4d.setContent(html_2240ad25985e524481936599bac82add);
+        
+
+        marker_3992d8e7c190e1ae320834c2100e4d65.bindPopup(popup_1a5f29490cd6ffa167b9306fd6ab1e4d)
+        ;
+
+        
+    
+    
+            var marker_264d9ee0ed4704bb083162cf5e4f7be8 = L.marker(
+                [40.66946, -73.76679],
+                {}
+            ).addTo(map_5935b4039a5d015d949574a99c6757e3);
+        
+    
+            var icon_5f59fd6550e1a8063215358b330d35c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_264d9ee0ed4704bb083162cf5e4f7be8.setIcon(icon_5f59fd6550e1a8063215358b330d35c7);
+        
+    
+        var popup_1fda00f0e492bc8ec897dfe89b98641f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52e29f638280648cec387fd24a3188b1 = $(`<div id="html_52e29f638280648cec387fd24a3188b1" style="width: 100.0%; height: 100.0%;">Top 10 expensive listings</div>`)[0];
+            popup_1fda00f0e492bc8ec897dfe89b98641f.setContent(html_52e29f638280648cec387fd24a3188b1);
+        
+
+        marker_264d9ee0ed4704bb083162cf5e4f7be8.bindPopup(popup_1fda00f0e492bc8ec897dfe89b98641f)
+        ;
+
+        
+    
+    
+            var marker_abe78e99312c37abe66e5624e3b721a7 = L.marker(
+                [40.70617, -74.01486],
+                {}
+            ).addTo(map_5935b4039a5d015d949574a99c6757e3);
+        
+    
+            var icon_fe76624d4555a400834322d27e496f03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_abe78e99312c37abe66e5624e3b721a7.setIcon(icon_fe76624d4555a400834322d27e496f03);
+        
+    
+        var popup_d27809d02cc563cfa21581376bb4d814 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c610beea1d58624e399b97d500ff298 = $(`<div id="html_5c610beea1d58624e399b97d500ff298" style="width: 100.0%; height: 100.0%;">Top 10 expensive listings</div>`)[0];
+            popup_d27809d02cc563cfa21581376bb4d814.setContent(html_5c610beea1d58624e399b97d500ff298);
+        
+
+        marker_abe78e99312c37abe66e5624e3b721a7.bindPopup(popup_d27809d02cc563cfa21581376bb4d814)
+        ;
+
+        
+    
+    
+            var marker_9d422437a346897e604653facee12872 = L.marker(
+                [40.66714, -73.99411],
+                {}
+            ).addTo(map_5935b4039a5d015d949574a99c6757e3);
+        
+    
+            var icon_cec2feac6bfe1107c3326529b182874c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9d422437a346897e604653facee12872.setIcon(icon_cec2feac6bfe1107c3326529b182874c);
+        
+    
+        var popup_d7865b3c40ea6f2ad80021fed707e11c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8788607208d6557f6960da9db9ba58e3 = $(`<div id="html_8788607208d6557f6960da9db9ba58e3" style="width: 100.0%; height: 100.0%;">Top 10 expensive listings</div>`)[0];
+            popup_d7865b3c40ea6f2ad80021fed707e11c.setContent(html_8788607208d6557f6960da9db9ba58e3);
+        
+
+        marker_9d422437a346897e604653facee12872.bindPopup(popup_d7865b3c40ea6f2ad80021fed707e11c)
+        ;
+
+        
+    
+    
+            var marker_7118d2a2d8acf2b8b306f73167a80fd1 = L.marker(
+                [40.7619, -73.98454],
+                {}
+            ).addTo(map_5935b4039a5d015d949574a99c6757e3);
+        
+    
+            var icon_4e50819128aa510566511d77cd298d2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7118d2a2d8acf2b8b306f73167a80fd1.setIcon(icon_4e50819128aa510566511d77cd298d2c);
+        
+    
+        var popup_3a689afbdcff20df16ca4edb7f633eb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19b1219196b1e0faf32419bdbda4b160 = $(`<div id="html_19b1219196b1e0faf32419bdbda4b160" style="width: 100.0%; height: 100.0%;">Top 10 expensive listings</div>`)[0];
+            popup_3a689afbdcff20df16ca4edb7f633eb7.setContent(html_19b1219196b1e0faf32419bdbda4b160);
+        
+
+        marker_7118d2a2d8acf2b8b306f73167a80fd1.bindPopup(popup_3a689afbdcff20df16ca4edb7f633eb7)
+        ;
+
+        
+    
+    
+            var marker_57ef16e7d48b2c9aeac5657594d72088 = L.marker(
+                [40.71133, -73.95358],
+                {}
+            ).addTo(map_5935b4039a5d015d949574a99c6757e3);
+        
+    
+            var icon_6a99ef84705d298badbc2219c4817d56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_57ef16e7d48b2c9aeac5657594d72088.setIcon(icon_6a99ef84705d298badbc2219c4817d56);
+        
+    
+        var popup_da12332ac3cf22c63dc7f3de9dbde806 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54a65b5865275514998acab8d0b80107 = $(`<div id="html_54a65b5865275514998acab8d0b80107" style="width: 100.0%; height: 100.0%;">Top 10 expensive listings</div>`)[0];
+            popup_da12332ac3cf22c63dc7f3de9dbde806.setContent(html_54a65b5865275514998acab8d0b80107);
+        
+
+        marker_57ef16e7d48b2c9aeac5657594d72088.bindPopup(popup_da12332ac3cf22c63dc7f3de9dbde806)
+        ;
+
+        
+    
+    
+            var marker_9d765e11b20f2844ca877d78460f9b0d = L.marker(
+                [40.71165, -73.95236],
+                {}
+            ).addTo(map_5935b4039a5d015d949574a99c6757e3);
+        
+    
+            var icon_a700809541293a679656db44cdcdbe84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9d765e11b20f2844ca877d78460f9b0d.setIcon(icon_a700809541293a679656db44cdcdbe84);
+        
+    
+        var popup_ea58459470574945b4f0bac062175926 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f790c454c5a1c0312406bbbc8a99498e = $(`<div id="html_f790c454c5a1c0312406bbbc8a99498e" style="width: 100.0%; height: 100.0%;">Top 10 expensive listings</div>`)[0];
+            popup_ea58459470574945b4f0bac062175926.setContent(html_f790c454c5a1c0312406bbbc8a99498e);
+        
+
+        marker_9d765e11b20f2844ca877d78460f9b0d.bindPopup(popup_ea58459470574945b4f0bac062175926)
+        ;
+
+        
+    
+</script>
