@@ -14,8 +14,6 @@ Related topic:
 - Decision Trees
 - Naive Bayes
 - Support Vector Machines
-
-To be continued:
 - Random Forest
 - Logistics Regression
-...
+- Natural Language Processing
