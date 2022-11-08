@@ -1,0 +1,11 @@
+Dataset download link:https://www.kaggle.com/competitions/cs506-fall-2022/overview
+technique used:
+- Logistic Regression
+- Random Forest
+- SVM
+- Linear Regression
+
+package used:
+- Stemmer and TFIDF vectorizer
+- Textblob
+- Pandas
